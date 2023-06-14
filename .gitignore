@@ -39,5 +39,5 @@
 
 /node_modules
 
-#ignore macOS temfiles
+#ignore macOS temp files
 .DS_Store
