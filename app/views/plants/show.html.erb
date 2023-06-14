@@ -1,0 +1,21 @@
+<div class="col-lg-8 mx-auto">
+  <div class="card shadow">
+    <div class="card-header">
+        <h1 class="card-tittle">Detalhes | Planta</h1>
+    </div>
+    <div class="card-body">
+      <p style="color: green"><%= notice %></p>
+
+      <%= render @plant %>
+      <div class="mt-5">
+        <%= link_to "Editar Planta", edit_plant_path(@plant), class:"btn btn-outline-warning btn-sm" %> 
+        <%= link_to "Voltar", plants_path, class:"btn btn-outline-success btn-sm" %>
+        <%= button_to "Eliminar Planta", @plant, method: :delete, class:"btn btn-danger btn-sm" %>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
